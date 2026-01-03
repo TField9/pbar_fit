@@ -1,0 +1,17 @@
+executable = /data03/tianye/pbar/macro/unbinned_fit/bin1/macro/fixneg/macro/Nmc100/sh/run_IWLS_crys.sh
+
+
+output = /data03/tianye/pbar/macro/unbinned_fit/bin1/log/output_$(ClusterId).$(ProcId).out
+error = /data03/tianye/pbar/macro/unbinned_fit/bin1/log/error_$(ClusterId).$(ProcId).err
+log = /data03/tianye/pbar/macro/unbinned_fit/bin1/log/condor_$(ClusterId).log
+
+
+request_cpus    = 1
+request_memory  = 30000 MB
+
+
+
+
+queue arguments from /data03/tianye/pbar/macro/unbinned_fit/bin1/sh/job1.txt
+
+

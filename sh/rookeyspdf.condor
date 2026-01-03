@@ -1,0 +1,17 @@
+executable = /data03/tianye/pbar/syscode/sh/run_rookeyspdf.sh
+
+
+output = /data03/tianye/pbar/syscode/log/output_$(ClusterId).$(ProcId).out
+error = /data03/tianye/pbar/syscode/log/error_$(ClusterId).$(ProcId).err
+log = /data03/tianye/pbar/syscode/log/condor_$(ClusterId).log
+
+
+request_cpus    = 1
+request_memory  = 2000 MB
+
+
+
+
+queue arguments from /data03/tianye/pbar/syscode/sh/2d_gen.txt
+
+
